@@ -2,7 +2,7 @@
 First Vue.js Project on Start2Impact
 
 ## Description
-This is a simple web app that lets you play Tic Tac Toe with a friend on local.
+This is a simple web app that lets you play Tic Tac Toe with a friend on local. [Click here](https://s2i-tictactoe.netlify.app/) to try it.
 
 ## What I used
 
