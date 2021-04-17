@@ -1,5 +1,5 @@
 <template>
-  <button type="button" @click="changeStatus()">{{ buttonStatus }}</button>
+  <button type="button" @click.once="changeStatus()">{{ buttonStatus }}</button>
 </template>
 
 <script>
@@ -21,6 +21,13 @@ export default {
 
 <style scoped>
 button {
-  font-size: 75px;
+  font-size: 65px;
+  background-color: #3a3a3c;
+  border-width: medium;
+  border-color: black;
+  color: white;
+  border-style: double;
+  box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+
 }
 </style>
